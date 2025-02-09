@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('nom');
             $table->string('action');
+            $table->string('updated_at');
+            $table->string('created_at');
         });
     }
 
